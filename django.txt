@@ -1,0 +1,19 @@
+cd Desktop
+django-admin startproject password_generator
+cd personal_portfolio-project
+python manage.py startapp blog
+python manage.py startapp portfolio
+python manage.py runserver
+//add 'blog' and 'portfolio' into app store the
+ settings of personal_portfolio-project
+//pip install pillow   ---this is for image
+//python manage.py migrate   ---check the changed field that remove the error
+
+//python manage.py makemigrations --- actiually its create a migration file through this
+commands and you should create it after changes the progect and save it
+where the migration happend and what added.
+
+//python manage.py createsuperuser    ---to create the username 
+
+//python manage.py changepassword   ---to change the password
+
